@@ -1,0 +1,13 @@
+id: patient-info
+
+fields:
+  pageTitle: Patient Infomation Page
+placeholders:
+  jss-main:
+    - componentName: PatientInfo
+      fields:
+        patientName: First Patient
+        patientGender: Male
+        patientDob: '01-01-2020'
+        patientNo: 234343
+        patientPhoneNumber: 23434343

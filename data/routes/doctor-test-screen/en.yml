@@ -1,0 +1,12 @@
+id: doctor-info
+
+fields:
+  pageTitle: Doctor Infomation Page
+placeholders:
+  jss-main:
+    - componentName: DoctorInfo
+      fields:
+        doctorName: Dr. Kumar
+        doctorQualification: MBBS
+        doctorSpecialization: General Medicine
+        doctorExperience: 3 Years
