@@ -11,8 +11,6 @@ const PatientRecords = (props) => {
           <div key={`patientrecordlistitem-${index}`}>
             <p>
               <RichText field={listItem.fields.prescription} />
-              <br />
-              <DateField field={listItem.fields.dateOfPrescription} />
             </p>
           </div>
         ))}

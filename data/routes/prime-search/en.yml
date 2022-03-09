@@ -1,0 +1,9 @@
+id: PrimeSearch
+
+fields:
+  pageTitle: PrimeSearch
+placeholders:
+  jss-main:
+    - componentName: PrimeSearch
+      fields:
+        heading: Search

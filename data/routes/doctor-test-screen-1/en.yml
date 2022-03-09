@@ -1,4 +1,4 @@
-id: doctor-info
+id: doctor-info-1
 
 fields:
   pageTitle: Doctor Infomation Page
@@ -6,7 +6,7 @@ placeholders:
   jss-main:
     - componentName: DoctorInfo
       fields:
-        doctorName: Dr. Kumar
+        doctorName: Dr. Kumar Biswas
         doctorQualification: MBBS
         doctorSpecialization: General Medicine
         doctorExperience: 3 Years

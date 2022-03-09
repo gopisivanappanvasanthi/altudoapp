@@ -1,0 +1,9 @@
+id: SlickCarousel
+
+fields:
+  pageTitle: SlickCarousel
+placeholders:
+  jss-main:
+    - componentName: SlickCarousel
+      fields:
+        heading: Test

@@ -1,0 +1,11 @@
+id: doctor-2
+displayName: Doctor 2
+# Template defines the available fields. See /sitecore/definitions/templates/Styleguide-ContentList-Template.sitecore.js
+template: DoctorInfo-Template
+fields:
+  doctorName: Doctor 1
+  doctorQualification: MBBS
+  doctorSpecialization: General Medicine
+  doctorUrl:
+    href: /doctor-test-screen-2
+    text: doctor-2

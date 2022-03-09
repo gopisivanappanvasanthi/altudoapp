@@ -1,0 +1,9 @@
+id: SecondCarousel
+
+fields:
+  pageTitle: SecondCarousel
+placeholders:
+  jss-main:
+    - componentName: SecondCarousel
+      fields:
+        heading: Test

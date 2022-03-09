@@ -1,5 +1,10 @@
 a[target='_blank']:after {
-  content: '\1F5D7'
+  content: '\1F5D7';
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(0, 183, 255);
 }
 
 /*
@@ -7,4 +12,7 @@ a[target='_blank']:after {
   if you run the app in connected mode while the Sitecore cookies
   are set to edit mode.
 */
-.scChromeData, .scpm { display: none !important; }
+.scChromeData,
+.scpm {
+  display: none !important;
+}

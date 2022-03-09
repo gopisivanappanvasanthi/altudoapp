@@ -7,12 +7,6 @@ const PatientInfo = (props) => (
     <Text field={props.fields.patientName} />
     <br />
     <Text field={props.fields.patientGender} />
-    <br />
-    <DateField field={props.fields.patientDob} />
-    <br />
-    <Text field={props.fields.patientNo} />
-    <br />
-    <Text field={props.fields.patientPhoneNumber} />
   </div>
 );
 

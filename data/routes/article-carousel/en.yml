@@ -1,0 +1,9 @@
+id: ArticleCarousel
+
+fields:
+  pageTitle: ArticleCarousel
+placeholders:
+  jss-main:
+    - componentName: ArticleCarousel
+      fields:
+        heading: Test

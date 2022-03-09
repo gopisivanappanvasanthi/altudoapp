@@ -1,0 +1,11 @@
+id: patient-records
+
+fields:
+  pageTitle: Patient Prescription Records Page
+placeholders:
+  jss-main:
+    - componentName: PatientRecords
+      fields:
+        records:
+        - id: patientrecord-1
+        - id: patientrecord-2
