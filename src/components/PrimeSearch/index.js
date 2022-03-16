@@ -49,12 +49,12 @@ class PrimeSearch extends React.Component {
         <input type="text" onChange={this.handleChange}></input>
         <input type="submit" onClick={this.handleSubmit} value="Submit" />
         <div>
-          {this.state.searchResult.map((result) => (
-            <div key="searchresult-{result.ResultTitle}">
+          {this.state.searchResult?.map((rest) => (
+            <div key={rest.ResultTitle}>
               <div>
-                <a href={result.ResultUrl}>result.ResultTitle</a>
+                <a href={rest.ResultUrl}>{rest.ResultTitle}</a>
               </div>
-              <div>result.ResultDescription</div>
+              <div>{rest.ResultDescription}</div>
             </div>
           ))}
         </div>

@@ -25,7 +25,7 @@ class AppSearch extends React.Component {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ searchKeyword: this.state.searchKeyword }),
     };
-    fetch('/altudoapi/handlesearch', requestOptions)
+    fetch('/altudoapi/StandardResult', requestOptions)
       .then((response) => response.json())
       .then(
         (result) => {
@@ -48,6 +48,17 @@ class AppSearch extends React.Component {
       <div>
         <input type="text" onChange={this.handleChange} id="searchKeyword" />
         <input type="submit" onClick={this.handleSubmit} value="submit" />
+        <div>
+          {this.state.searchResults.map((res) => (
+            <div key={res.SearchTitle}>
+              <a href={res.SearchTileUrl}>
+                <h3>{res.SearchTitle}</h3>
+              </a>
+              <br />
+              <p>{res.SearchDescription}</p>
+            </div>
+          ))}
+        </div>
       </div>
     );
   }
